@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { ProfilePage } from "./components/ProfilePage";
-import { ProfileDetailPage } from "./components/ProfileDetailPage";
-import { FeedPage } from "./components/FeedPage";
+import { JobsPage } from "./components/JobsPage";
+import { JobsDetailPage } from "./components/JobPage";
 import { HomePage } from "./components/HomePage";
+
 function App() {
   return (
     <div>
       <Router>
-        <ul>
+        <ul> d
           <li>
             <Link to="/">To Home</Link>
           </li>
@@ -21,8 +21,8 @@ function App() {
         </ul>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/jobs" component={ProfilePage} />
-          <Route path="/jobs/:id" component={ProfileDetailPage} />
+          <Route exact path="/jobs" component={JobsPage} />
+          <Route path="/jobs/:id" component={JobsDetailPage} />
           {/* <Route path="/feed" component={FeedPage} /> */}
         </Switch>
       </Router>
