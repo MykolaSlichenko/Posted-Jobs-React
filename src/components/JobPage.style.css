@@ -1,0 +1,101 @@
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    margin: 0;
+}
+
+.titleText {
+    width: 60%;
+}
+
+.titleSalary {
+    display: flex;
+}
+
+.brutto {
+    display: grid;
+    right: 10px;
+}
+
+.apply-button {
+    padding: 18px 30px;
+    bottom: 92.33%;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /*width: 30px;*/
+    background: #384564;
+    border-radius: 8px;
+}
+
+.full-time-button {
+    background-color: rgba(161, 177, 219, 0.317343);
+    border: 1px solid rgba(85, 105, 158, 0.3);
+    border-radius: 8px;
+    height: 49px;
+    width: 222px;
+    /*font-family: 'Proxima Nova';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    /*letter-spacing: -0.457143px;*/
+    color: #55699E;
+    padding: 10px;
+
+}
+
+.shedule-button {
+    background-color: rgba(255, 207, 0, 0.15);;
+    border: 1px solid rgba(85, 105, 158, 0.3);
+    border-radius: 8px;
+    height: 49px;
+    width: 222px;
+    /*font-family: 'Proxima Nova';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    /*letter-spacing: -0.457143px;*/
+    color: #988B49;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+.imgStyle {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.return-button {
+    background-color: #FFFFFF;
+    width: 213px;
+    height: 50px;
+    border-radius: 8px;
+    color: #3A4562;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.arrow {
+    padding-right: 20px;
+}

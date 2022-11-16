@@ -1,0 +1,32 @@
+
+.card {
+    background-color: white;
+    border-radius: 2%;
+    /*width: 90%;*/
+}
+
+.title {
+    width: 60%;
+    /*height: 50px;*/
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3A4562;
+}
+
+.time {
+    /*float: right;*/
+}
+
+.image {
+    float: left;
+    border-radius: 50%;
+}
+
+.jobPageStyle {
+    background-color: #E6E9F2;
+    width: 100%;
+    height: 100%;
+}

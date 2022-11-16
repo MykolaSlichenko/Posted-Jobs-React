@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Router>
-        <ul> d
+        <ul>
           <li>
             <Link to="/">To Home</Link>
           </li>
@@ -22,7 +22,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/jobs" component={JobsPage} />
-          <Route path="/jobs/:id" component={JobsDetailPage} />
+          <Route path="/jobs/:index" component={JobsDetailPage} />
           {/* <Route path="/feed" component={FeedPage} /> */}
         </Switch>
       </Router>

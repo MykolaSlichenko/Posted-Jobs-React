@@ -1,17 +1,23 @@
 const initialState = [
   {
+      id: '1',
+      image: require('./images/h1.png'),
       title: 'Arbeitsmediziner/-in / Betriebsmediziner/-in (m/w/d) oder einen Arzt/eine Ärztin (m/w/d) für die Weiterbildung zum Facharzt/ zur Fachärztin für Arbeitsmedizin (m/w/d)',
       text: 'Department name •  Allgemeines Krankenhaus der Stadt Wien - AKH',
       location: 'Vienna, Austria',
       time: 'Posted 2 days ago',
   },
   {
+      id: '2',
+      image: require('./images/h2.png'),
       title: 'Arbeitsmediziner/-in / Betriebsmediziner/-in (m/w/d) oder einen Arzt/eine Ärztin (m/w/d) für die Weiterbildung zum Facharzt/ zur Fachärztin für Arbeitsmedizin (m/w/d)',
       text: 'Department name •  Allgemeines Krankenhaus der Stadt Wien - AKH',
       location: 'Vienna, Austria',
       time: 'Posted 2 days ago',
   },
   {
+      id: '3',
+      image: require('./images/h3.png'),
       title: 'Arbeitsmediziner/-in / Betriebsmediziner/-in (m/w/d) oder einen Arzt/eine Ärztin (m/w/d) für die Weiterbildung zum Facharzt/ zur Fachärztin für Arbeitsmedizin (m/w/d)',
       text: 'Department name •  Allgemeines Krankenhaus der Stadt Wien - AKH',
       location: 'Vienna, Austria',
@@ -22,6 +28,6 @@ const initialState = [
 const userReducer = (state = initialState, action) => {
   console.log('reducer', state, action);
   return state;
-}
+};
 
 export default userReducer;
