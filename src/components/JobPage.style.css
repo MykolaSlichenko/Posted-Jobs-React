@@ -1,3 +1,30 @@
+
+.job-page {
+    display: flex;
+    /*text-align: center;*/
+}
+
+.map {
+    width: 300px;
+    height: 206px;
+}
+
+.information-block {
+    background-color: #384564;
+    color: white;
+    /*text-decoration: none;*/
+    /*list-style:none;*/
+    /*padding:0;*/
+    /*margin:0;*/
+    width: 300px;
+    height: 206px;
+}
+
+.main-block {
+    width: 55%;
+    margin-left: 10%;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -6,7 +33,21 @@
 }
 
 .titleText {
-    width: 60%;
+    width: 70%;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+
+    letter-spacing: -0.625px;
+
+    /* Text/Dark */
+
+    color: #3A4562;
+
+
 }
 
 .titleSalary {
@@ -14,11 +55,12 @@
 }
 
 .brutto {
-    display: grid;
-    right: 10px;
+    /*display: grid;*/
+    right: 6px;
+    padding-top: 21px;
 }
 
-.apply-button {
+.apply-button-first {
     padding: 18px 30px;
     bottom: 92.33%;
     color: white;
@@ -28,6 +70,23 @@
     /*width: 30px;*/
     background: #384564;
     border-radius: 8px;
+}
+
+.apply-button-second {
+    padding: 18px 30px;
+    bottom: 92.33%;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /*width: 30px;*/
+    background: #384564;
+    border-radius: 8px;
+}
+
+.employment-style {
+    display: flex;
+    justify-content: space-between;
 }
 
 .full-time-button {
@@ -42,33 +101,79 @@
     font-size: 16px;
     line-height: 16px;
     text-align: center;
-    /*letter-spacing: -0.457143px;*/
     color: #55699E;
     padding: 10px;
 
 }
 
+.benefits-style {
+    display: flex;
+    justify-content: stretch;
+}
+
 .shedule-button {
-    background-color: rgba(255, 207, 0, 0.15);;
+    background-color: rgba(255, 207, 0, 0.15);
     border: 1px solid rgba(85, 105, 158, 0.3);
     border-radius: 8px;
     height: 49px;
     width: 222px;
-    /*font-family: 'Proxima Nova';*/
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
-    /*letter-spacing: -0.457143px;*/
     color: #988B49;
     padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+.map-block {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 900px) {
     .main-nav {
-        font-size: 0.5em;
+        font-size: 15px;
         padding: 0;
+    }
+
+    .job-page {
+        display: block;
+    }
+
+    .main-block {
+        width: 90%;
+    }
+
+    .apply-button {
+        margin-left: 30%;
+    }
+
+    .full-time-button {
+        width: 150px;
+    }
+
+    .apply-button-first {
+        display: none;
+    }
+
+    .link-style {
+        display: none;
+    }
+
+    .titleText {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        /* or 133% */
+
+        letter-spacing: -0.5625px;
+
+        /* Text/Dark */
+
+        color: #3A4562;
+
     }
 }
 
@@ -82,10 +187,11 @@
 }
 
 .return-button {
-    background-color: #FFFFFF;
+    background-color: lightgray;
     width: 213px;
     height: 50px;
     border-radius: 8px;
+    border: none;
     color: #3A4562;
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -98,4 +204,53 @@
 
 .arrow {
     padding-right: 20px;
+}
+
+.job-details {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.413333px;
+
+    color: #3A4562;
+}
+
+.time-posted {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    letter-spacing: -0.5625px;
+
+    color: rgba(56, 65, 93, 0.355988);
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    /*letter-spacing: -0.5625px;*/
+
+    /* Text/Dark */
+
+    color: #3A4562;
+    /*font-stretch: 100;*/
+}
+
+
+.salary-amount {
+    color: #3A4562;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
 }

@@ -26,7 +26,7 @@ const initialState = [
 ];
 
 const userReducer = (state = initialState, action) => {
-  console.log('reducer', state, action);
+  // console.log('reducer', state, action);
   return state;
 };
 
