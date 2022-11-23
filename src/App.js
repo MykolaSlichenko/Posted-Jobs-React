@@ -8,17 +8,6 @@ function App() {
   return (
     <div>
       <Router>
-        {/*<ul>*/}
-          {/*<li>*/}
-            {/*<Link to="/">To Home</Link>*/}
-          {/*</li>*/}
-          {/*<li>*/}
-            {/*<Link to="/jobs">To Jobs Page</Link>*/}
-          {/*</li>*/}
-          {/*<li>*/}
-            {/*<Link to="/jobs/job-details" exact>To Job Detail Page</Link>*/}
-          {/*</li>*/}
-        {/*</ul>*/}
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/jobs" component={JobsPage} />

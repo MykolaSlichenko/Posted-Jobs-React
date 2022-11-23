@@ -9,7 +9,6 @@ export function JobsPage() {
 
   return (
     <div className='jobPageStyle'>
-      <h1>Jobs Page!</h1>
       {jobs.map((job, index) => (
         <div className='card' key={index}>
           {console.log(index)}

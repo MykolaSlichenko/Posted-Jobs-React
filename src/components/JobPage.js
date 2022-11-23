@@ -14,7 +14,6 @@ export function JobsDetailPage() {
 
   return (
     <div className='job-page'>
-      <h1>Page for { jobDetails.id }!</h1>
       <div className='main-block'>
         <nav className="zone blue sticky">
           <ul className="main-nav">
